@@ -1,0 +1,144 @@
+/*  specifically we separate out our 
+    utility classes (such as classes in span)
+    side-specific classes (classes for nav div section
+    general classes (classes for body and html)
+    in different stylesheet to organize our css
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(1, 1, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: rgb(17, 17, 70);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 1.75rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(192, 192, 248);
+    font-size: 1.03rem;
+}
+.left {
+    font-size: 1.75rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 9rem 0;
+}
+.firstSection>div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2.5rem;
+}
+.rightSection img{
+    width: 115%;
+}
+.purple {
+    color: rgb(164, 100, 224);
+}
+#element {
+    color: rgb(164, 100, 224);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr {
+    border: 0;
+    background-color: rgb(53, 53, 128);
+    height: 0.08rem;
+    margin: 4rem 4rem;
+}
+.secondSection h1 {
+    font-size: 2rem;
+}
+.text-gray {
+    color: gray;
+}
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 0.2rem;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.secondSection .verticle {
+    background: white;
+    height: 6rem;
+    width: 0.2rem;
+}
+.image-top {
+    width: 2rem;
+    position: relative;
+    top: -2.5rem;
+    left: -0.8rem;
+}
+.verticle-title {
+    position: relative;
+    top: 3.5rem;
+    width: 9rem;
+}
+.verticle-descrip {
+    position: relative;
+    top: 4rem;
+    width: 10rem;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(3, 3, 16);
+    height: 15rem;
+}
+.footer {
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: space-around;
+}
+.footer ul {
+    list-style: none;
+}
+footer .footer-rights {
+    text-align: center;
+    margin: 2.5rem 0;
+    color: gray;
+}
+
+.buttons>.btn {
+    background: #05053f;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1.125rem;
+    border: 0.2rem solid;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 2rem 0;
+}

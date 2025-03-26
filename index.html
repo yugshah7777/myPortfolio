@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yug Shah - Developer Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Yug's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I am <span class="purple">Yug Shah</span>. 
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="./developer.svg" alt="Developer Image">
+            </div>
+        </section>
+
+        <hr/>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="./cpp.png" alt="html-img">
+                    <div class="verticle-title">C++ Developer</div>
+                    <div class="verticle-descrip">Have a knowledge of C++</div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./HTML5-Logo.png" alt="html-img">
+                    <div class="verticle-title">HTML5 Developer</div>
+                    <div class="verticle-descrip">Have a knowledge of HTML5</div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./css.png" alt="html-img">
+                    <div class="verticle-title">CSS Developer</div>
+                    <div class="verticle-descrip">Have a knowledge of CSS</div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./bootstrap.png" alt="html-img" style="width: 2.4rem; left:-1.15rem">
+                    <div class="verticle-title">BootStrap Developer</div>
+                    <div class="verticle-descrip">Have a knowledge of BootStrap</div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./javascript.png" alt="html-img">
+                    <div class="verticle-title">JavaScript Developer</div>
+                    <div class="verticle-descrip">Have a knowledge of JavaScript</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Yug' Developer Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.yugsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Programmer',  'Mathematician', 'Web Developer'],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
